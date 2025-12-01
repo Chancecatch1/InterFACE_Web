@@ -1,23 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
-using Unity.XR.CoreUtils;
 using UnityEngine.EventSystems;
-
-using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
+using Unity.XR.CoreUtils;
 using SocketIOClient;
 using SocketIOClient.Newtonsoft.Json;
-using UnityEngine;
 using Newtonsoft.Json.Linq;
 using TMPro;
-using UnityEngine.UI;
-
-using System.Threading;
 using Microsoft.MixedReality.GraphicsTools;
 
 public class EventManager : MonoBehaviour
@@ -73,7 +68,7 @@ public class EventManager : MonoBehaviour
 
     double time1 = 0;
     double time2 = 0;
-    float effectTime = 1f;
+    // float effectTime = 1f; // 향후 애니메이션 효과에 사용 예정
 
     // Update is called once per frame
 
