@@ -1,4 +1,4 @@
-# Comparing AI Agent Modalities for Collaborative CPR Simulation in Augmented Reality
+# Comparing AI Agent Modalities in AR-based Collaborative CPR Simulation
 
 This research investigates how different AI agent modalities affect collaboration in AR, using CPR simulation as the experimental context.
 
